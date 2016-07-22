@@ -33,29 +33,5 @@ GameFunctions.prototype.playAgain = function () {
 	});
 }
 
-
-// function chooseRandomTeam() {
-// 	// Create code to randomly choose one of the 30 teams 
-// 	currentTeamIndex = Math.floor(Math.random()*teams.length);
-// 	var currentTeam = teams[currentTeamIndex];	
-// 	return currentTeam;
-// }	
-
-// function playAgain() {
-// 	inquirer.prompt([{
-// 		type: 'confirm',
-// 		name: 'playAgain',
-// 		message: 'would you like to play again?'
-// 	}]).then(function (answers) {
-// 		if (answers.playAgain) {
-// 			word.chooseDifficulty();
-// 		} else {
-// 			console.log('maybe later... :(');
-// 		}
-// 	});
-// }
-
 //EXPORTS
-// module.exports.chooseRandomTeam = chooseRandomTeam;
-// module.exports.playAgain = playAgain;
 module.exports.GameFunctions = GameFunctions;

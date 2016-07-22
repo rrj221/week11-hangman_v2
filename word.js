@@ -7,13 +7,6 @@ var Nyancat = require('nyansole');
 var guessedArray = [];
 var teamGlobal = '';
 
-// function checkIfGuesssed(letter) {
-// 	if (guessedArray.indexOf(letter) !== -1) {
-// 		return true;
-// 	}
-// 	return false;
-// }
-
 function WordFunctions() {};
 
 WordFunctions.prototype.checkIfGuessed = function (letter) {
@@ -130,12 +123,6 @@ WordFunctions.prototype.setDifficulty = function (answersObj) {
 }
 
 
-
-
-
-// module.exports.askForLetter = askForLetter;
-// module.exports.start = start;
-// module.exports.chooseDifficulty = chooseDifficulty;
 module.exports.WordFunctions = WordFunctions;
 
 

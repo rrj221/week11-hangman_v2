@@ -68,8 +68,4 @@ LetterFunctions.prototype.incrementGuessesIfNeeded = function (guessesRemaining,
 	return guessesRemaining - 1;
 }
 
-// module.exports.displayToScreen = displayToScreen;
-// module.exports.checkIfWon = checkIfWon;
-// module.exports.initializeDisplayArray = initializeDisplayArray;
-// module.exports.lost = lost;
 module.exports.LetterFunctions = LetterFunctions;
