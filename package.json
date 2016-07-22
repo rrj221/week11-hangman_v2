@@ -1,0 +1,24 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "nba hangman game",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrj221/week11-hangman.git"
+  },
+  "author": "Ryan Jarrell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrj221/week11-hangman/issues"
+  },
+  "homepage": "https://github.com/rrj221/week11-hangman#readme",
+  "dependencies": {
+    "inquirer": "^1.1.2",
+    "nyansole": "^0.5.1",
+    "play-sound-v12": "^0.1.1"
+  }
+}
